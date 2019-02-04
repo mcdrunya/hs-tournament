@@ -1,0 +1,45 @@
+﻿body {
+    
+    background-color: white;
+}
+
+header{
+    background: url(img/mon.jpg)
+    text-align:center;
+}
+
+.home{
+    font-size: 100px;
+    color:crimson
+}
+
+.spinner {
+   
+    margin: 100px 20px 0px 1050px;
+}
+
+.danger{
+    text-align: center;
+}
+
+
+
+.carousel-item active {
+    height: -400px !important;
+    margin: 0 auto;
+    width: -100%
+}
+
+.carousel-item {
+   
+}
+
+.carousel-indicators li {
+    border-color: #000;
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+
