@@ -1,10 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Golden</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Турнир по Hearthstone</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="img/icon1.png" type="png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scriptsmooth.js"></script>
+
 </head>
 <body>
 
@@ -12,49 +17,57 @@
         <div class="container">
 
             <div class="heading">
-                <img src="img/logo.png" alt="Golden" class="logo" />
+                <img src="img/logo1.png" alt="HS" class="logo1" />
                 <nav>
+                    <div class="link-hover-center"> 
                     <ul class="menu">
                         <li>
-                            <a href="home.html">Home</a>
+                            <a href="website.html">Главная</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <div id="scroll">
+                            <a href="#ex1">О турнире</a>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                            <div id="scroll2">
+                            <a href="#ex2">Галерея</a>
+                            </div>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="https://vk.com/doc144348760_518477353?hash=c266db5ae1c933230b&dl=6e61c474f18294992b" target="_blank">Правила</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#">Контакты</a>
                         </li>
                     </ul>
+                </div>
                 </nav>
             </div>
+
             <div class="titles">
                 <div class="titles_first">
-                    Welcome To Our Studio!
+                    Добро пожаловать на наш сайт!
                 </div>
                 <h1>
-                    It's nice to Meet you
+                  HEARTHSTONE TOURNAMENT
                 </h1>
             </div>
-            <a class="button" href="#">Tell Me More</a>
+            <div class="catside">
+            <a class="button" id="" href="https://docs.google.com/forms/d/e/1FAIpQLSezrTtMDFzkVLNDeJ-2jLW5fh2YB9aizyS8m2N3NLiR0kNMiQ/viewform" target="_blank">Регистрируйся!</a>
+            </div>
         </div>
     </header>
 
 
-
     <section id="services">
         <div class="container">
-            <div class="title">
+            <div class="title" id="ex1">
                 <h2>
-                    Services
+                    О турнире
                 </h2>
                 <p>
-                    kasflklafsafkl
+                    Лучший способ изменить жизнь
                 </p>
 
             </div>
@@ -64,56 +77,61 @@
             <div class="services">
 
                 <div class="services_item">
-                    <img src="img/icon1.png" alt="Услуга" />
-                    <h3>E-Commerce</h3>
+                    <img src="img/medal.png" alt="Место" />
+                    <h3>1 МЕСТО</h3>
                     <p>
-                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-                        aenean rhoncus posuere odio in tincidunt.
+                        Лучший игрок, проявивший себя вовремя
+                        турнира, получит вознаграждение в размере
+                        3000 рублей.
                     </p>
                 </div>
 
                 <div class="services_item">
-                    <img src="img/icon2.png" alt="Услуга" />
-                    <h3>Responsive Web</h3>
+                    <img src="img/medal2.png" alt="Место" />
+                    <h3>2 МЕСТО</h3>
                     <p>
-                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-                        aenean rhoncus posuere odio in tincidunt.
+                        Достойный соперник, без одной секунды победитель,
+                        получит 
+                        вознаграждение в размере 2000 рублей.
                     </p>
                 </div>
 
                 <div class="services_item">
-                    <img src="img/icon3.png" alt="Услуга" />
-                    <h3>Web Security</h3>
+                    <img src="img/medal3.png" alt="Место" />
+                    <h3>3 МЕСТО</h3>
                     <p>
-                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-                        aenean rhoncus posuere odio in tincidunt.
+                        Действительно сильный оппонент,
+                        показавший хорошую игру, получит
+                        вознаграждение в размере 1000 рублей.
                     </p>
                 </div>
 
             </div>
 
         </div>
+
 
 
     </section>
 
     <section id="portfolio">
         <div class="container">
-            <div class="title">
+            <div class="title" id="ex2">
                 <h2>
-                    Our Portfolio
+                    Галерея
                 </h2>
                 <p>
-                    kasflklafsafkl
+                    Фотографии с предыдущих турниров
                 </p>
             </div>
             <div class="works">
-                <img src="img/img1.jpg" alt="Работа" />
-                <img src="img/img2.jpg" alt="Работа" />
-                <img src="img/img3.jpg" alt="Работа" />
+                <img src="img/img1.png" alt="Игроки" />
+                <img src="img/img2.png" alt="Победитель" />
+                <img src="img/img3.png" alt="Сцена" />
             </div>
         </div>
     </section>
+    
     <section>
         <div class="container">
 
@@ -121,15 +139,14 @@
     </section>
 
 
-
     <footer>
         <div class="container">
-
+            <p>© Copyright 2019 BONCHTEAM</p>
         </div>
     </footer>
 
+<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
 
-
-
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

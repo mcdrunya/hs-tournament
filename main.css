@@ -18,8 +18,24 @@ div {
 
 
 header {
-    background: url(./img/first-bg.jpg) no-repeat center top / cover;
+    background: url(./img/bg.png) no-repeat center top / cover;
     padding-bottom: 160px;
+
+}
+
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #fed136;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
 }
 
 .container {
@@ -27,14 +43,42 @@ header {
     margin: 0 auto;
 }
 
-.logo {
+.logo1 {
     float: left;
-    margin-top: 45px;
+    margin-top: 37px;
 }
 
 nav {
     float: right;
     margin-top: 45px;
+}
+
+.link-hover-center a {
+    display: inline-block;
+    color: #fed136;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.link-hover-center a:after {
+    display: block;
+    content: "";
+    background-color: #fed136;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.link-hover-center a:hover:after {
+    width: 100%;
 }
 
 .menu {
@@ -75,7 +119,7 @@ h1 {
 .button {
     background: #fed136;
     color: #484543;
-    border-radius: 3px;
+    border-radius: 8px;
     display: block;
     width: 240px;
     padding: 20px 0;
@@ -86,7 +130,15 @@ h1 {
     font-weight: bold;
     font-size: 18px;
     margin-top: 50px;
+    transition: all 400ms ease-in-out;
 }
+
+.catside a:hover {
+    background-color: #f5c318;
+    
+}
+     
+
 
 .title {
     padding-top: 115px;
@@ -160,4 +212,9 @@ h1 {
 
 .works img:last-child{
     float: right;
+}
+
+
+footer{
+    text-align: center;
 }
